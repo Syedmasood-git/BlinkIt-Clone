@@ -7,6 +7,7 @@
     position: sticky;
     top: 0px;
     height: 86px;
+    width: 100vw;
     background-color: white;
 }
 .verticle-line{
@@ -152,105 +153,85 @@
     margin-inline: auto;
     width: 81vw;
 }
-.use{
-    font-weight: 600;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    /* margin: 24px 0px; */
-}
-ul>li{
-    text-decoration: none;
-    list-style: none;
-}
-.row-1{
-    width: 100%;
-    display: flex;
-    /* justify-content: space-between;  */
-    align-items: flex-start; 
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.row-1-col-1{
-    display: block;
-    column-count: 3;
-    margin: 24px 0px;
-}
-.row-1-col-1>p{
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
-}
-.row-1-col-2{
-    column-count: 3;
-}
-
-.row-2{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.row-2-col-1{
-    width: 30vw;
-}
-
-.row-2-col-2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row-2-col-2>button{
-    width: 100px;
-    height: 30px;
-    color: white;
-    border-radius: 6px;
-    border: none;
-    background-color: #213b50;
-    margin-inline: 5px;
-}
-
-.row-2-col-3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row-2-col-3>a{
-    border-radius: 50%;
-    background-color: black;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    margin: 5px;
-}
-.row-3{
-    color:#666666;
-    font-size: 16px;
-    padding: 10px;
-    text-align: justify;
-}
-
-td{
-    padding: 3px 20px;
-    color: #666666;
-    font-size: 16px;
+.my-footer>h3{
     text-align: center;
-    cursor: pointer;
 }
 
-tr>th{
-    /* text-align: center; */
-}
-.table-2{
-    flex: 4;
-}
 
-.table-1{
-    flex: 2;
+
+
+@media screen and (max-width:1510px ) {
+    .my-categories-section{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}
+@media screen and (max-width:443px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+@media screen and (max-width:427px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 100%;
+    }
+}
+@media screen and (max-width:602px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+@media screen and (max-width:753px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+@media screen and (max-width:904px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+@media screen and (max-width:1054px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+@media screen and (max-width:1205px) {
+    .my-categories-section{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+    }
+}
+@media screen and(max-width:967px) {
+    nav{
+        visibility: hidden;
+        display: none !important;
+        background-color: red;
+    }
+}
+@media screen and(max-width: 525px) {
+    .my-footer>h3{
+        text-align: center;
+    }
 }
