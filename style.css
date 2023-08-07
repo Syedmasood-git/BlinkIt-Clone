@@ -235,3 +235,9 @@
         text-align: center;
     }
 }
+@media screen and (max-width:1506px){
+    .my-categories-section{
+        display: flex;
+        flex-direction: row;
+    }
+}
